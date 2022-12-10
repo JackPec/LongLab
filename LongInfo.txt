@@ -1,0 +1,13 @@
+Jack Pec
+
+CSC122-001
+
+Long Lab
+
+
+Overall level 2.5
+
+
+Desc: 
+
+It's the "Subscript: Not just for arrays anymore!" Lab

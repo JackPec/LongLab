@@ -1,0 +1,38 @@
+1. Which operators are friends and which are members?
+ Do any have to be members?
+
+The subscript [] and function object () operators are members. 
+
+Actually the insertion and extraction operators 
+are both friends and members of the class. 
+This is a new feature that c++ allows.
+
+2. Which operators should be const? 
+What other methods might well be const?
+
+The typcast long operator and the subscript [],
+ the getter methods as well.
+
+3. Does this class serve any useful purpose? Why/Why not?
+
+I think it's very useful, we can get an individual number from 
+a certain number space from a long interger. or we can get a range 
+of numbers within the long int. This could be useful when storing 
+alots of information in the form of longs and then retrieving it 
+as needed (maybe its more effiecient to do this, but at the 
+cost of readability). 
+
+4. What use is a typecast operator? When would it be called? 
+   Why would you want your objects to be cast back to a simpler type?
+
+The typecast operator is used to convert the returned object value 
+from our subscript [] and function object () operator overloads
+into longs. It'll be called when the long object is being used with 
+other data types, like for example, 
+
+Its to use the long object seamlessly with other long data types,
+for example, if j and k are our enchanced long objects, 
+we would want to use them in code for practial purposes like this:
+
+long p = k + j + 100 - 5;
+
